@@ -1,0 +1,19 @@
+@import "global.scss";
+
+.app {
+  height: 100vh;
+  color: $white;
+  background-color: $black;
+  overflow: scroll;
+  scroll-behavior: smooth;
+
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  &::-webkit-scrollbar{
+    display: none;
+  }
+
+  .sections{
+    background-color: inherit;
+  }
+}

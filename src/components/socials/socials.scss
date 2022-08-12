@@ -1,0 +1,13 @@
+@import "../../global.scss";
+
+.socials{
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+
+  svg{
+    width: 2.5rem;
+    margin: 1rem;
+    fill:$white;
+  }
+}
