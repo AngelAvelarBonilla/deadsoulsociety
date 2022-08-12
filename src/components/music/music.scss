@@ -11,10 +11,18 @@
     margin: 2rem 0;
     font-size: 5rem;
     text-shadow: .15rem .15rem #465777;
+    @include mobile {
+      font-size: 3rem;
+    }
   }
 
   .spotify-player{
     width: 40%;
     border-radius: 12px;
+
+    @include mobile {
+      width: 100%;
+      border-radius: 0px;
+    }
   }
 }

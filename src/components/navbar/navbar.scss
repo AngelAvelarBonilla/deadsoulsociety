@@ -9,12 +9,21 @@
   padding-top: 1rem;
   position: relative;
 
+  @include mobile {
+    width: 100%;
+    justify-content: center;
+  }
+
   .link{
     text-decoration: none;
     color: $light-gray;
     font-size: 1.5rem;
     font-weight: 300;
     margin: auto;
+
+    @include mobile {
+      display: none;
+    }
 
     &:hover{
       text-decoration: line-through;

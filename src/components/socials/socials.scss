@@ -4,10 +4,16 @@
   display: flex;
   justify-content: center;
   margin: 1rem;
+  flex-wrap: wrap;
 
   svg{
     width: 2.5rem;
     margin: 1rem;
     fill:$white;
+
+    &:hover{
+      fill:white;
+      transition: fill .5s;
+    }
   }
 }

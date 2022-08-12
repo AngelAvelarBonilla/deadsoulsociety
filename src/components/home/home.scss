@@ -1,8 +1,6 @@
 @import "../../global.scss";
 
 .home{
-  border-top: .2rem solid whitesmoke;
-  border-bottom: .2rem solid whitesmoke;
 
   .thatbody{
     position: relative;
@@ -15,8 +13,10 @@
 
     img{
       width: 38%;
-      border: 1rem whitesmoke solid;
-      border-bottom: 6rem whitesmoke solid;
+
+      @include mobile {
+        width: 100%;
+      }
     }
 
     .text{
@@ -32,6 +32,12 @@
         -.5rem -.5rem #f0a754;
       
       margin-top: 10%;
+
+      @include mobile {
+        margin-top: 20%;
+        word-spacing: normal;
+        font-size: 3rem;
+      }
     }
   }
 

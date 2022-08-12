@@ -3,7 +3,7 @@ import "./music.scss";
 const Music = () => {
   return (
     <div className="music" id="music">
-      <h2>Music</h2>
+      <h2>Top Tracks</h2>
       <iframe
         className="spotify-player"
         src="https://open.spotify.com/embed/artist/5jK1BdSQerlxAhyHMKpXe6?utm_source=generator"
