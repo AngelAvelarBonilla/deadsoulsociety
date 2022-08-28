@@ -21,11 +21,11 @@ const Home = () => {
             </h1>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
+        {/*<SwiperSlide>
           <div className="testSlide">
             <h1 className="text">TEST SLIDE</h1>
           </div>
-        </SwiperSlide>
+  </SwiperSlide>*/}
       </Swiper>
     </div>
   );

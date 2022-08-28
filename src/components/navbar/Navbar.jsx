@@ -9,8 +9,11 @@ const Navbar = () => {
       <a href="#about" className="link">
         About
       </a>
-      <a href="#" className="logo">
+      <a href="#" className="logo desktop">
         Dead Soul Society
+      </a>
+      <a href="#" className="logo mobile">
+        D. S. S.
       </a>
       <a href="#music" className="link">
         Music
