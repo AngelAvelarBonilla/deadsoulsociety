@@ -6,17 +6,17 @@ const Navbar = () => {
       <a href="#" className="link">
         Home
       </a>
-      <a href="#music" className="link">
-        Music
+      <a href="#about" className="link">
+        About
       </a>
       <a href="#" className="logo">
         Dead Soul Society
       </a>
+      <a href="#music" className="link">
+        Music
+      </a>
       <a href="#socials" className="link">
         Socials
-      </a>
-      <a href="#contact" className="link">
-        Contact
       </a>
     </div>
   );
